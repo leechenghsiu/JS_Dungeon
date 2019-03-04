@@ -1,0 +1,28 @@
+.a {
+  fill: #ff7600;
+}
+
+.b {
+  fill: #fff;
+}
+
+.c {
+  fill: #b1ff00;
+  stroke: #fff;
+  stroke-linecap: round;
+}
+
+.b2_wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #293b29;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.b2_box {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  padding: 50px;
+}

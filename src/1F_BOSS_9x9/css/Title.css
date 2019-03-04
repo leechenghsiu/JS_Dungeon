@@ -1,0 +1,36 @@
+.b1_wrapper {
+  width: 350px;
+  height: 366px;
+  float: left;
+  margin: 0px 30px 40px 0px;
+  position: relative;
+}
+
+.b1_x {
+  color: #2EB738;
+  font-size: 24px;
+  position: absolute;
+}
+
+.b1_box {
+  width: 282px;
+  height: 338px;
+  margin: 14px auto;
+  border-top: 1px solid#2EB738;
+  border-bottom: 1px solid#2EB738;
+}
+
+.b1_box-title {
+  font-size: 56px;
+  color: #2EB738;
+  padding-top: 113.5px;
+  margin: 0;
+  font-weight: bold;
+  font-family: Helvetica Neue;
+}
+
+.b1_box-sub {
+  font-size: 24px;
+  color: #2EB738;
+  font-family: Helvetica Neue;
+}

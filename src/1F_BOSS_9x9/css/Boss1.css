@@ -1,0 +1,22 @@
+.b1_bg {
+  background-color: #F0F0F0;
+  margin: auto;
+  padding: 80px 0px 0px 85px;
+  width: 1280px;
+  height: 1338px;
+}
+
+.b1_footer {
+  margin: auto;
+  width: 1280px;
+  height: 34px;
+  background-color: #2EB738;
+}
+
+.b1_footer-title {
+  color: #F0F0F0;
+  float: right;
+  font-size: 16px;
+  margin-right: 85px;
+  padding-top: 8px;
+}

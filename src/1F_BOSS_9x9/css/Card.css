@@ -1,0 +1,33 @@
+.b1_card {
+  width: 350px;
+  height: 366px;
+  background-color: #FFFFFF;
+  box-shadow: #D8D8D8 0px 3px 10px;
+  border-radius: 100px 0px 30px 0px;
+  float: left;
+  margin: 0px 30px 40px 0px;
+  padding: 10px 40px;
+}
+
+.b1_number {
+  font-size: 128px;
+  color: #2EB738;
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  text-shadow:
+    2px 2px #fff,
+    -2px 2px #fff,
+    2px -2px #fff,
+    -2px -2px #fff,
+    4px 4px 0px#F0F0F0;
+  padding-left: 11px;
+  margin: 0px;
+}
+
+.b1_result {
+  font-size: 24px;
+  color: #2EB738;
+  font-weight: 300;
+  font-family: Helvetica Neue;
+  margin-bottom: 8px;
+}

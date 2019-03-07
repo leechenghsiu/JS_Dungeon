@@ -10,12 +10,20 @@ const Card = ({ row, col }) => {
 
   const renderLeft = [1, 2, 3].map(num => {
     const result = `${arr[i][j]} × ${num} = ${arr[i][j] * num}`;
-    return <p className="b1_result">{result}</p>;
+    return (
+      <p key={num} className="b1_result">
+        {result}
+      </p>
+    );
   });
 
   const renderRight = [4, 5, 6, 7, 8, 9].map(num => {
     const result = `${arr[i][j]} × ${num} = ${arr[i][j] * num}`;
-    return <p className="b1_result">{result}</p>;
+    return (
+      <p key={num} className="b1_result">
+        {result}
+      </p>
+    );
   });
 
   return (

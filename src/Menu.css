@@ -1,0 +1,140 @@
+.menu {
+  transition-duration: 0.5s;
+  height: 100vh;
+  width: 480px;
+  background-color: #f2f3f5;
+  position: absolute;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 40%) 0px 20px 40px;
+  overflow: hidden;
+}
+
+.menu-close {
+  transition-duration: 0.5s;
+  width: 0px;
+}
+
+.menu-wrapper {
+  transition-duration: 0.5s;
+  height: 100vh;
+  margin-top: 100px;
+  width: 480px;
+  background-color: #f2f3f5;
+  position: absolute;
+  z-index: 3;
+}
+
+.menu-wrapper-close {
+  transition-duration: 0.5s;
+  width: 480;
+  opacity: 0;
+}
+
+.link {
+  font-size: 24px;
+  /* position: absolute; */
+}
+
+.icon-btn {
+  transition-duration: 0.5s;
+  position: absolute;
+  z-index: 4;
+  cursor: pointer;
+  top: 20px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.icon-left {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  top: 19px;
+  left: 10px;
+  background-color: rgb(50, 55, 62);
+  border-radius: 1px 0 0 1px;
+}
+
+.icon-right {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  top: 19px;
+  left: 20px;
+  background-color: rgb(50, 55, 62);
+  border-radius: 0 1px 1px 0;
+}
+
+.icon-left:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background-color: rgb(50, 55, 62);
+  content: "";
+  top: -7.5px;
+  border-radius: 1px 0 0 1px;
+}
+
+.icon-left:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background-color: rgb(50, 55, 62);
+  content: "";
+  top: 7.5px;
+  border-radius: 1px 0 0 1px;
+}
+
+.icon-right:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background-color: rgb(50, 55, 62);
+  content: "";
+  top: -7.5px;
+  border-radius: 0 1px 1px 0;
+}
+
+.icon-right:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background-color: rgb(50, 55, 62);
+  content: "";
+  top: 7.5px;
+  border-radius: 0 1px 1px 0;
+}
+
+.icon-left-open {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+
+.icon-right-open {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+
+.icon-left-open:before {
+  transform: rotateZ(45deg) scaleX(1.5) translate(1px, 2px);
+}
+
+.icon-left-open:after {
+  transform: rotateZ(-45deg) scaleX(1.5) translate(1px, -2px);
+}
+
+.icon-right-open:before {
+  transform: rotateZ(-45deg) scaleX(1.5) translate(-1px, 2px);
+}
+
+.icon-right-open:after {
+  transform: rotateZ(45deg) scaleX(1.5) translate(-1px, -2px);
+}

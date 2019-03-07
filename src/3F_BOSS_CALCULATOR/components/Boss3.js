@@ -2,6 +2,7 @@ import React from 'react';
 
 import Button from './Button';
 import '../css/Boss3.css';
+import Menu from '../../Menu';
 
 class Boss3 extends React.Component {
   state = {
@@ -87,33 +88,36 @@ class Boss3 extends React.Component {
     });
 
     return (
-      <div className="b3_wrapper">
-        <div className="b3_calculator">
-          <div className="b3_monitor">
-            <div className="b3_procedure">{this.state.procedure}</div>
-            <div className="b3_result">{this.state.text}</div>
-          </div>
-          <div className="b3_button-wrapper">{renderNumber}</div>
-          <div className="b3_operate" onClick={() => this.handleOperate('/')}>
-            ÷
-          </div>
-          <div className="b3_operate" onClick={() => this.handleOperate('*')}>
-            ×
-          </div>
-          <div className="b3_operate" onClick={() => this.handleOperate('+')}>
-            +
-          </div>
-          <div className="b3_operate" onClick={() => this.handleOperate('-')}>
-            −
-          </div>
-          <div className="b3_delete" onClick={this.handleClear}>
-            AC
-          </div>
-          <div className="b3_delete" onClick={this.handleDelete}>
-            ⌫
-          </div>
-          <div className="b3_equal" text="=" onClick={this.handleEvaluate}>
-            =
+      <div>
+        <Menu />
+        <div className="b3_wrapper">
+          <div className="b3_calculator">
+            <div className="b3_monitor">
+              <div className="b3_procedure">{this.state.procedure}</div>
+              <div className="b3_result">{this.state.text}</div>
+            </div>
+            <div className="b3_button-wrapper">{renderNumber}</div>
+            <div className="b3_operate" onClick={() => this.handleOperate('/')}>
+              ÷
+            </div>
+            <div className="b3_operate" onClick={() => this.handleOperate('*')}>
+              ×
+            </div>
+            <div className="b3_operate" onClick={() => this.handleOperate('+')}>
+              +
+            </div>
+            <div className="b3_operate" onClick={() => this.handleOperate('-')}>
+              −
+            </div>
+            <div className="b3_delete" onClick={this.handleClear}>
+              AC
+            </div>
+            <div className="b3_delete" onClick={this.handleDelete}>
+              ⌫
+            </div>
+            <div className="b3_equal" text="=" onClick={this.handleEvaluate}>
+              =
+            </div>
           </div>
         </div>
       </div>

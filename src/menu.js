@@ -28,15 +28,23 @@ class Menu extends React.Component {
             !this.state.open && 'menu-wrapper-close'
           ].join(' ')}
         >
-          <Link to="/1F_BOSS_9x9" className="link">
-            9x9乘法表
-          </Link>
-          <Link to="/2F_BOSS_CLOCK" className="link">
-            時鐘
-          </Link>
-          <Link to="/3F_BOSS_CALCULATOR" className="link">
-            計算機
-          </Link>
+          <ol className="list">
+            <li className="list-item">
+              <Link to="/1F_BOSS_9x9" className="link">
+                9x9乘法表
+              </Link>
+            </li>
+            <li className="list-item">
+              <Link to="/2F_BOSS_CLOCK" className="link">
+                時鐘
+              </Link>
+            </li>
+            <li className="list-item">
+              <Link to="/3F_BOSS_CALCULATOR" className="link">
+                計算機
+              </Link>
+            </li>
+          </ol>
         </div>
       </div>
     );

@@ -14,7 +14,7 @@ ReactDOM.render(
         <Route path="/2F_BOSS_CLOCK" component={Boss2} />
         <Route path="/1F_BOSS_9x9" component={Boss1} />
         <Route path="/">
-          <Redirect to={{pathname: "/1F_BOSS_9x9"}} />
+          <Redirect to={{ pathname: '/1F_BOSS_9x9' }} />
         </Route>
       </Switch>
     </div>
